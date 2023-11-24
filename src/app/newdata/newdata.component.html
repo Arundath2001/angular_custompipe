@@ -1,0 +1,22 @@
+<div class="newdata">
+    <h2>Upper/Lower Case Pipes:</h2>
+    <p>Text: {{ text }}</p>
+    <p>Uppercase text: {{ text | uppercase }}</p>
+    <p>Lowercase text: {{ text | lowercase }}</p>  
+
+    <h2>Number Pipe:</h2>
+    <p>Price: {{ value }}</p>
+    <p>New  Price: {{ value | number:'1.1-2' }}</p>
+
+    <h2>Date Pipe:</h2>
+    <p>Date: {{ Date | date:'long' }}</p>
+
+    <h2>Percent Pipe:</h2>
+    <p>Percentage: {{ per }}</p>
+    <p>New  Percentage: {{ per | percent:'1.1-2' }}</p>
+
+    <h2>Currency Pipe:</h2>
+    <p>Amount: {{ value }}</p>
+    <p>New  Amount: {{ value | currency:'INR':'symbol':'1.1-2' }}</p>
+  </div>
+  
